@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Renovate defaults for the zelesny org's repos. A repo takes them by adding \"github>zelesny/.github\" to its extends.",
+  "minimumReleaseAge": "7 days",
+  "vulnerabilityAlerts": {
+    "description": "Security fixes skip the cooldown: the exposure window is the bigger risk than a bad patch.",
+    "minimumReleaseAge": null
+  }
+}
